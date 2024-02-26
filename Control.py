@@ -1,5 +1,7 @@
+import televisores.tv
+
 class Control:
-    
+
     def enlazar(self, tv: TV):
         self._tv = tv
         tv.setControl(self)
