@@ -1,4 +1,4 @@
-from tv import TV
+from televisores import tv
 
 class Control:
     def __init__(self):
