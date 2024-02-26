@@ -1,5 +1,3 @@
-import televisores.tv
-
 class TV:
     _numTV = 0
     def __init__(self, marca, canal, precio, estado, volumen, control):

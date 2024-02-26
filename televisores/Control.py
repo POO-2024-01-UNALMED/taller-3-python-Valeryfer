@@ -1,5 +1,3 @@
-import televisores.tv
-
 class Control:
 
     def enlazar(self, tv: TV):
