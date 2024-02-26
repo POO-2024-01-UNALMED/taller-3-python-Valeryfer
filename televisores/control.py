@@ -4,7 +4,7 @@ class Control:
     def __init__(self):
         self._tv = None
         
-    def enlazar(self, tv: TV):
+    def enlazar(self, tv: tv):
         self._tv = tv
         tv.setControl(self)
 
