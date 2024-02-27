@@ -3,7 +3,7 @@ class TV:
     
     def __init__(self, marca, canal, precio, estado, volumen, control):
         self._marca = marca
-        self._canal = 1
+        self.canal = 1
         self._precio = 500
         self._estado = estado
         self._volumen = 1
@@ -19,10 +19,10 @@ class TV:
         return self.marca
     
     def setCanal (self, canal):
-        self._canal = canal
+        self.canal = canal
     
     def getCanal (self):
-        return self._canal
+        return self.canal
     
     def setPrecio (self, precio):
         self._precio = precio
@@ -57,10 +57,10 @@ class TV:
         self._estado = False
     
     def canalUp (self):
-        self.setCanal(self._canal + 1)
+        self.setCanal(self.canal + 1)
 
     def canalDown (self):
-        self.setCanal(self._canal - 1)
+        self.setCanal(self.canal - 1)
     
     def volumenUp (self):
         self.setVolumen(self._volumen + 1)
