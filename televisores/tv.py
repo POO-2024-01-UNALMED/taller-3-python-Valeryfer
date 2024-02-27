@@ -7,8 +7,6 @@ class TV:
         self._precio = 500
         self._estado = estado
         self._volumen = 1
-
-        TV._numTV += 1
     
     def __init__(self, marca, estado):
         self.marca = marca
