@@ -13,31 +13,31 @@ class TV:
     
     
     def setMarca (self, marca):
-        self.marca = marca
+        self._marca = marca
     
     def getMarca (self):
         return self._marca
     
     def setCanal (self, canal):
-        self.canal = canal
+        self._canal = canal
     
     def getCanal (self):
         return self._canal
     
     def setPrecio (self, precio):
-        self.precio = precio
+        self._precio = precio
 
     def getPrecio (self):
         return self._precio
     
     def setVolumen (self, volumen):
-        self.volumen = volumen
+        self._volumen = volumen
     
     def getVolumen (self):
         return self._volumen
     
     def setControl (self, control):
-        self.control = control
+        self._control = control
     
     def getControl (self):
         return self._control
