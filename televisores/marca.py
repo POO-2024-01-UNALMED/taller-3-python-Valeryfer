@@ -1,9 +1,9 @@
 class Marca:
-    def __init__(self, nombre: str):
+    def __init__(self, nombre):
         self.Marca = nombre
     
     def getNombre(self):
         return self.nombre
     
-    def setNombre(self, nombre: str):
+    def setNombre(self, nombre):
         self._nombre = nombre

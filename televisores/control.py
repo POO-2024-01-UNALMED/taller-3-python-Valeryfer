@@ -1,8 +1,9 @@
 class Control:
-    def __init__(self,tv):
-        self._tv = tv
+    def __init__(self, tv):
+        self.tv = tv
 
     def enlazar(self, tv):
+        self._tv = tv
         tv.setControl(self)
 
     def turnOn(self):
@@ -23,10 +24,10 @@ class Control:
     def volumenDown(self):
         self._tv.volumenDown()
     
-    def getCanal(self, canal: int):
+    def getCanal(self, canal):
         return self._tv.setCanal(canal)
     
-    def getVolumen(self, volumen: int):
+    def getVolumen(self, volumen):
         return self._tv.getVolumen(volumen)
     
     def getTv(self):

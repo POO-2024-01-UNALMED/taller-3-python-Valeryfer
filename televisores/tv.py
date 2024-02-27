@@ -40,12 +40,11 @@ class TV:
     def setControl (self, control):
         self.control = control
     
-    
     def getControl (self):
         return self.control
     
     @classmethod
-    def setNumTV (cls, numTV: int):
+    def setNumTV (cls, numTV):
         cls._numTV = numTV
     
     @classmethod
@@ -69,3 +68,6 @@ class TV:
     
     def volumenDown (self):
         self.setVolumen(self._volumen - 1)
+    
+    def getEstado (self):
+        return self.estado
