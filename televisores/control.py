@@ -20,13 +20,7 @@ class Control:
 
     def setCanal(self, canal):
         self._tv.setCanal(canal)
-
-    def getCanal(self):
-        return self._tv._canal
-    
-    def getVolumen(self):
-        return self._tv._volumen
-    
+        
     def setVolumen(self, volumen):
         self._tv.setVolumen(volumen)
 
